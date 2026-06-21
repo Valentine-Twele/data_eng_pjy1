@@ -1,6 +1,7 @@
 -- ============================================================
--- Star Schema DDL for the retail sales project.
--- Create dimensions first, then load the fact table.
+-- STEP 3: Create the star schema tables for the data warehouse.
+-- Run this script in the dwh_retail_sales database after step 1 and step 2.
+-- This creates dimension tables first, then the fact table structure.
 -- ============================================================
 
 -- Dimension: Location

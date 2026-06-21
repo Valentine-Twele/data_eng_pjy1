@@ -1,6 +1,7 @@
 -- ============================================================
--- Simple ETL Insert Script for dwh_retail_sales
--- Load dimensions first, then the fact table.
+-- STEP 4: Load dimension and fact tables in the data warehouse.
+-- Run this script in the dwh_retail_sales database after the schema exists.
+-- It loads dimensions first and then inserts fact records.
 -- ============================================================
 
 -- 1. Load the location dimension

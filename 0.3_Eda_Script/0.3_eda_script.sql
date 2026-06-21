@@ -1,6 +1,8 @@
 -- ============================================================
--- EDA SCRIPT: Retail Sales Raw Data Checks
--- This script helps you see the raw data before loading it.
+-- STEP 2: EDA and raw data validation for the retail sales dataset.
+-- Run this script after loading raw data into public.retail_sales_original.
+-- Use this script to inspect row counts, missing values, distinct cardinality,
+-- numeric ranges, return statistics, and sample rows before ETL.
 -- ============================================================
 
 -- 1. Count total rows and orders
